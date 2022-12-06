@@ -69,6 +69,9 @@ footer{
     body{
         font-family: 'Audiowide', cursive;
     }
+    body::before{
+background-image: url(https://source.unsplash.com/random/1920x1080/?city,night);
+}
     .top-pic{
         padding-top: 30px;
     }
