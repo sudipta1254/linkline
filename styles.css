@@ -85,13 +85,14 @@ footer{
     cursor: default;
     font-size: 16px;
     font-weight: 600;
-color: white;
+    color: white;
 }
 @media screen and (max-width: 768px) {
     
     body::before{
         background-image: url(https://source.unsplash.com/random/720x1080/?city,night);
         filter: blur(4px);
+        background-repeat: no-repeat;
     }
     .top-pic{
         padding-top: 30px;
