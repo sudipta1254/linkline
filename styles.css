@@ -15,6 +15,7 @@ body::before{
     height: 100%;
     z-index: -1;
     filter: blur(20px);
+    background-repeat: no-repeat;
 }
 .navabar{
     display: flex;
@@ -43,6 +44,7 @@ body::before{
     width: 250px;
     border-radius: 25px;
     background: rgb(221, 215, 215);
+    /* filter: drop-shadow(1px 1px 5px); */
 }
 p{
     color: rgb(34, 69, 69);
@@ -80,6 +82,7 @@ li{
 }
 footer{
     padding: 15px 0;
+    margin-left: -24px;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
     cursor: default;
@@ -87,12 +90,20 @@ footer{
     font-weight: 600;
     color: white;
 }
+.abc{
+    display: inline;
+    position: relative;
+    top: 0px;
+    left: 13px;
+    color: white;
+    font-family: 'Montez', cursive;
+    font-size: 18px;
+}
 @media screen and (max-width: 768px) {
     
     body::before{
         background-image: url(https://source.unsplash.com/random/720x1080/?city,night);
         filter: blur(4px);
-        background-repeat: no-repeat;
     }
     .top-pic{
         padding-top: 30px;
@@ -111,7 +122,7 @@ footer{
         margin-top: 24px;
     }
     footer{
-        margin: 90px 0px 0;
+        margin: 120px 25px 0 0;
         font-size: 15px;
         font-weight: 600;
     }
