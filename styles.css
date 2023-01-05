@@ -38,9 +38,9 @@ body::before{
 }
 .bottom{
     display: flex;
-    margin: 35px auto;
+    margin: 15px auto 18px;
     padding: 20px 50px 60px;
-    height: 350px;
+    height: 402px;
     width: 250px;
     border-radius: 25px;
     background: rgb(221, 215, 215);
@@ -48,7 +48,7 @@ body::before{
 }
 p{
     color: rgb(34, 69, 69);
-    margin: -8px -15px 11px;
+    margin: -8px -15px 3px;
     font-size: 27px;
 }
 p::selection{
@@ -81,7 +81,7 @@ li{
     list-style: none;
 }
 footer{
-    padding: 15px 0;
+    padding: 5px 0 10px;
     margin-left: -24px;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
@@ -98,7 +98,7 @@ footer{
     /* color: white; */
     font-family: 'Montez', cursive;
     font-size: 25px;
-    background-color: #2193b0;  /**/
+    background-color: #8983f7;  /**/
     background-image: linear-gradient(120deg, #2193b0, #6dd5ed 70%);
     background-size: 100%;
     background-repeat: repeat;
@@ -112,8 +112,9 @@ footer{
 @media screen and (max-width: 768px) {
     
     body::before{
-        background-image: url(https://source.unsplash.com/random/720x1080/?city,night);
-        filter: blur(4px);
+        /* background-image: url(https://source.unsplash.com/random/720x1080/?city,night); */
+        background-image: url(https://source.unsplash.com/random/768x1080/?city,night);
+        filter: blur(3px);
     }
     .top-pic{
         padding-top: 30px;
@@ -148,5 +149,11 @@ footer{
         margin: 120px 25px 0 0;
         font-size: 16px;
         font-weight: 600;
+    }
+}
+@media screen and (min-width: 2560px) {
+    body::before{
+        background-image: url(https://source.unsplash.com/random/2560x900/?city,night);
+        filter: blur(4px);
     }
 }
