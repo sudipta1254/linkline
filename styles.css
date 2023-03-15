@@ -181,7 +181,7 @@ footer{
 }
 @font-face {
     font-family: 'Galantis';
-    src: url(Galantis.otf) format('truetype');
+    src: url(Galantis.otf) format('opentype');
     font-style: normal;
     font-weight: normal;
 }
