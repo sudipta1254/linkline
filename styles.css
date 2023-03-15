@@ -85,7 +85,7 @@ footer{
     margin-left: -24px;
     margin-top: 52px; /* -- */
     text-align: center;
-    font-family: 'Galantis', 'Samarkan', serif;
+    font-family: 'Roboto Mono', monospace;
     cursor: default;
     font-size: 16px;
     font-weight: 600;
@@ -101,13 +101,13 @@ footer{
     margin: 0;
     padding: 0;
 }
+
 .abc{
     display: inline;
     position: relative;
     top: 0px;
     left: 13px;
-    /* color: white; */
-    font-family: 'Montez', cursive;
+    font-family: 'Galantis', 'Samarkan', serif; 
     font-size: 25px;
     background-color: #8983f7;  /**/
     background-image: linear-gradient(120deg, #2193b0, #6dd5ed 70%);
@@ -120,6 +120,7 @@ footer{
     background-color: transparent;
 }
 
+
 @media screen and (max-width: 768px) {
     
     body::before{
@@ -131,12 +132,13 @@ footer{
         padding-top: 30px;
     }
     .image{
-    	margin-left: 0;
+        margin-left: 0;
     }
     .bottom{
+        width: 240px;
+        height: 410px;
         margin: 35px auto 0;
         /* padding: 20px 40px 60px;*/  /* 20px 40px 60px --> 0 */
-        height: 410px;
         border-radius: 35px;
         background: rgb(215, 221, 219);
     }
