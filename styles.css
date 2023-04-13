@@ -9,7 +9,7 @@ body{
 body::before{
     content: '';
     /* background-color: rgb(81, 62, 39); */
-    background-image: url(https://source.unsplash.com/random/1920x1080?city,night);
+    background-image: url(https://source.unsplash.com/random/1920x1080?nightlife,neondemon,purrple,streetnight,city,night);
     position: absolute;
     width: 100%;
     height: 100%;
@@ -125,7 +125,7 @@ footer{
     
     body::before{
         /* background-image: url(https://source.unsplash.com/random/720x1080/?city,night); */
-        background-image: url(https://source.unsplash.com/random/768x1080/?city,night);
+        background-image: url(https://source.unsplash.com/random/768x1080/?nightlife,neondemon,purrple,streetnight,city,night);
         filter: blur(3px);
     }
     .top-pic{
@@ -177,7 +177,7 @@ footer{
 }
 @media screen and (min-width: 2560px) {
     body::before{
-        background-image: url(https://source.unsplash.com/random/2560x900/?city,night);
+        background-image: url(https://source.unsplash.com/random/2560x900/?nightlife,neondemon,purrple,streetnight,city,night);
         filter: blur(4px);
     }
 }
