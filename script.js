@@ -12,10 +12,10 @@ var list = ['98D8AA', 'F3E99F', 'F7D060', 'FF6D60', '2193B0', '6DD5ED',
 const na = document.getElementById('sig');
 col();
 function col() {
-            for(i = 0; i < 2; i++) {
+
                 c1 = list[(Math.floor(Math.random()*list.length))];
                 c2 = list[(Math.floor(Math.random()*list.length))];
-            }
+            
             if (c1 == c2) col();
             na.style.backgroundImage = 'linear-gradient(120deg, #'+c1+', #'+c2+' 70%)';
             setTimeout(col, 600);
