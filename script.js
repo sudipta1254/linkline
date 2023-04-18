@@ -10,10 +10,13 @@ var list = ['98D8AA', 'F3E99F', 'F7D060', 'FF6D60', '2193B0', '6DD5ED',
             'CE7777', 'C9BBCF', '898AA6', 'A0E4CB', 'E80F88', '850E35',
             'F1A661', '54BAB9', 'E6E5A3', 'FFB9B9'];
 const na = document.getElementById('sig');
-
-for(i = 0; i < 2; i++) {
-    c1 = list[(Math.floor(Math.random()*list.length))];
-    c2 = list[(Math.floor(Math.random()*list.length))];
+col();
+function col() {
+            for(i = 0; i < 2; i++) {
+                c1 = list[(Math.floor(Math.random()*list.length))];
+                c2 = list[(Math.floor(Math.random()*list.length))];
+            }
+            if (c1 == c2) col();
 }
 na.style.backgroundImage = 'linear-gradient(120deg, #'+c1+', #'+c2+' 70%)';
 // alert('linear-gradient(120deg, #'+c1+', #'+c2+' 70%)')
