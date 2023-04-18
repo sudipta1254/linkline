@@ -18,5 +18,6 @@ function col() {
             }
             if (c1 == c2) col();
             na.style.backgroundImage = 'linear-gradient(120deg, #'+c1+', #'+c2+' 70%)';
+            setTimeout(col, 500);
 }
 // alert('linear-gradient(120deg, #'+c1+', #'+c2+' 70%)')
