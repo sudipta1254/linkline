@@ -17,6 +17,6 @@ function col() {
                 c2 = list[(Math.floor(Math.random()*list.length))];
             }
             if (c1 == c2) col();
+            na.style.backgroundImage = 'linear-gradient(120deg, #'+c1+', #'+c2+' 70%)';
 }
-na.style.backgroundImage = 'linear-gradient(120deg, #'+c1+', #'+c2+' 70%)';
 // alert('linear-gradient(120deg, #'+c1+', #'+c2+' 70%)')
