@@ -14,7 +14,7 @@ col();
 function col() {
             c1 = list[(Math.floor(Math.random()*list.length))];
             c2 = list[(Math.floor(Math.random()*list.length))];
-            if (c1 == c2) alert();
+            if (c1 == c2) col();
             na.style.backgroundImage = 'linear-gradient(120deg, #'+c1+', #'+c2+' 70%)';
             setTimeout(col, 900);
 }
