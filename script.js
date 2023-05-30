@@ -37,4 +37,4 @@ function col() {
 
 i = ilist[Math.floor(Math.random()*ilist.length)];
 b = window.getComputedStyle(a, '::before');
-b.backgroundImage = `url(images.unsplash.com/photo-${i})`;
+//b.backgroundImage = `url(images.unsplash.com/photo-${i})`;
