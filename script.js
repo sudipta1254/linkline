@@ -31,10 +31,9 @@ function col() {
             c1 = list[(Math.floor(Math.random()*list.length))];
             c2 = list[(Math.floor(Math.random()*list.length))];
             if (c1 == c2) col();
-            na.style.backgroundImage = 'linear-gradient(120deg, #'+c1+', #'+c2+' 70%)';
+            na.style.backgroundImage = `linear-gradient(120deg, #${c1}, #${c2} 70%)`;
             setTimeout(col, 900);
 }
-
 
 i = ilist[Math.floor(Math.random()*ilist.length)];
 b = window.getComputedStyle(a, '::before');
