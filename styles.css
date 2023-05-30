@@ -8,8 +8,8 @@ body{
 }
 body::before{
     content: '';
-    /* background-color: rgb(81, 62, 39); 
-    background-image: url(https://source.unsplash.com/random/1920x1080?nightlife,neondemon,purrple,streetnight,city,night); */
+    /* background-color: rgb(81, 62, 39); */
+    background-image: url(https://source.unsplash.com/random/1920x1080?nightlife,neondemon,purrple,streetnight,city,night); 
     position: absolute;
     width: 100%;
     height: 100%;
