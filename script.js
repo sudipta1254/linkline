@@ -24,10 +24,8 @@ ilist = ['1440613905118-99b921706b5c',
 '1516893842880-5d8aada7ac05', '1510846606678-710c05a5c776',
 '1522093007474-d86e9bf7ba6f'];
 
-a = document.querySelector('BODY');
+a = document.querySelector('body');
 const na = document.getElementById('sig');
-const bodyBefore = document.getElementById('background');
-bodyBefore.style.backgroundImage = `url(images.unsplash.com/photo-1440613905118-99b921706b5c)`;
 
 col();
 function col() {
@@ -40,4 +38,4 @@ function col() {
 
 i = ilist[Math.floor(Math.random()*ilist.length)];
 b = window.getComputedStyle(a, '::before');
-//b.backgroundImage = `url(images.unsplash.com/photo-${i})`;
+b.backgroundImage = `url(images.unsplash.com/photo-${i})`;
