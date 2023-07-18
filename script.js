@@ -26,6 +26,9 @@ ilist = ['1440613905118-99b921706b5c',
 
 a = document.querySelector('BODY');
 const na = document.getElementById('sig');
+const bodyBefore = document.querySelector('body::before');
+bodyBefore.style.background = 'black';
+
 col();
 function col() {
             c1 = list[(Math.floor(Math.random()*list.length))];
