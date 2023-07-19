@@ -24,16 +24,15 @@ ilist = ['1440613905118-99b921706b5c',
 '1516893842880-5d8aada7ac05', '1510846606678-710c05a5c776',
 '1522093007474-d86e9bf7ba6f'];
 
-a = document.querySelector('body');
 const sig = document.getElementById('sig');
 
-setInterval(() => {
+function col() {
             c1 = list[(Math.floor(Math.random()*list.length))];
             c2 = list[(Math.floor(Math.random()*list.length))];
             if (c1 === c2) col();
             sig.style.backgroundImage = `linear-gradient(120deg, #${c1}, #${c2} 70%)`;
-}, 900);
+}
 
 i = ilist[Math.floor(Math.random()*ilist.length)];
-b = window.getComputedStyle(a, '::before');
+b = window.getComputedStyle(document.querySelector('body'), '::before');
 b.backgroundImage = `url(images.unsplash.com/photo-1440613905118-99b921706b5c)`;
