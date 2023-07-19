@@ -25,17 +25,15 @@ ilist = ['1440613905118-99b921706b5c',
 '1522093007474-d86e9bf7ba6f'];
 
 a = document.querySelector('body');
-const na = document.getElementById('sig');
+const sig = document.getElementById('sig');
 
-col();
-function col() {
+setInterval(() => {
             c1 = list[(Math.floor(Math.random()*list.length))];
             c2 = list[(Math.floor(Math.random()*list.length))];
-            if (c1 == c2) col();
-            na.style.backgroundImage = `linear-gradient(120deg, #${c1}, #${c2} 70%)`;
-            setTimeout(col, 900);
-}
+            if (c1 === c2) col();
+            sig.style.backgroundImage = `linear-gradient(120deg, #${c1}, #${c2} 70%)`;
+}, 900);
 
 i = ilist[Math.floor(Math.random()*ilist.length)];
 b = window.getComputedStyle(a, '::before');
-/* b.backgroundImage = `url(images.unsplash.com/photo-1440613905118-99b921706b5c)`; */
+b.backgroundImage = `url(images.unsplash.com/photo-1440613905118-99b921706b5c)`;
