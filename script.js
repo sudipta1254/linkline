@@ -26,13 +26,13 @@ ilist = ['1440613905118-99b921706b5c',
 
 const sig = document.getElementById('sig');
 
+col();
 function col() {
             c1 = list[(Math.floor(Math.random()*list.length))];
             c2 = list[(Math.floor(Math.random()*list.length))];
-            if (c1 === c2) col();
+            if (c1 == c2) col();
             sig.style.backgroundImage = `linear-gradient(120deg, #${c1}, #${c2} 70%)`;
 }
-col();
 
 i = ilist[Math.floor(Math.random()*ilist.length)];
 b = window.getComputedStyle(document.querySelector('body'), '::before');
