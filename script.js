@@ -32,7 +32,7 @@ function col() {
             c2 = list[(Math.floor(Math.random()*list.length))];
             if (c1 == c2) col();
             sig.style.backgroundImage = `linear-gradient(120deg, #${c1}, #${c2} 70%)`;
-            col();
+            setTimeout(col, 900);
 }
 
 i = ilist[Math.floor(Math.random()*ilist.length)];
