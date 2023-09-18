@@ -28,6 +28,7 @@ body::before{
    background: teal;
    align-items: center;
    justify-content: center;
+   z-index: 99;
 }
 .navabar{
     display: flex;
@@ -35,6 +36,7 @@ body::before{
     justify-content: center;
     height: 20px;
     width: 95px;
+    z-index: -10;
 }
 .top-pic{
     display: flex;
@@ -56,6 +58,7 @@ body::before{
     width: 250px;
     border-radius: 25px;
     background: rgb(221, 215, 215);
+    z-index: -10;
     /* filter: drop-shadow(1px 1px 5px); */
 }
 p{
@@ -102,6 +105,7 @@ footer{
     font-size: 16px;
     font-weight: 600;
     color: white;
+    z-index: -10;
 }
 .ver {
     position: absolute;
