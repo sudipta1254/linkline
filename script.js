@@ -24,6 +24,10 @@ ilist = ['1440613905118-99b921706b5c',
 '1516893842880-5d8aada7ac05', '1510846606678-710c05a5c776',
 '1522093007474-d86e9bf7ba6f'];
 
+$('document').ready(function() {
+   $('#loading').hide();
+})
+
 const sig = document.getElementById('sig');
 
 col();
