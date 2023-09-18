@@ -26,6 +26,7 @@ ilist = ['1440613905118-99b921706b5c',
 
 $('document').ready(function() {
    $('#loading').hide();
+   $('body::before').css('background-image', `url(images.unsplash.com/photo-1440613905118-99b921706b5c)`);
 })
 
 const sig = document.getElementById('sig');
