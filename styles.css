@@ -125,8 +125,7 @@ footer{
     left: 13px;
     font-family: 'Galantis', 'Samarkan', serif; 
     font-size: 25px;
-    background-color: #8983f7;  /**/
-/*     background-image: linear-gradient(120deg, #2193b0, #6dd5ed 70%); */
+    transition: .2s;
     background-size: 100%;
     background-repeat: repeat;
     -webkit-background-clip: text;
